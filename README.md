@@ -19,3 +19,4 @@ When the user selects the correct answer they are then moved to the next questio
 
 
 The game is over when all questions are answers or the timer hits 0. The user is then prompted to put in there initials for a high score and it is saved to local storage 
+![Screenshot 2021-04-01 205205](https://user-images.githubusercontent.com/78389456/113368387-9c984100-932c-11eb-991b-b7b27bf3cbd9.jpg)
