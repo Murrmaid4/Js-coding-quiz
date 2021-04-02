@@ -1,5 +1,7 @@
 # Js-coding-quiz
-This is my javascript coding quiz that has a timer and utilizes local storage
+This is my javascript coding quiz that has a timer 
+![Screenshot 2021-04-01 204218](https://user-images.githubusercontent.com/78389456/113368283-58a53c00-932c-11eb-8bd0-591e8fe57e7d.jpg)
+
 
 
 # My Javascript Coding Quiz
