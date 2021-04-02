@@ -18,5 +18,5 @@ When the user selects the correct answer they are then moved to the next questio
 ![Screenshot 2021-04-01 205043](https://user-images.githubusercontent.com/78389456/113368230-3ad7d700-932c-11eb-8241-5de36c7a2e85.jpg)
 
 
-The game is over when all questions are answers or the timer hits 0. The user is then prompted to put in there initials for a high score and it is saved to local storage 
+The game is over when all questions are answers or the timer hits 0. The user is then prompted to put in their initials for a high score.
 ![Screenshot 2021-04-01 205205](https://user-images.githubusercontent.com/78389456/113368387-9c984100-932c-11eb-991b-b7b27bf3cbd9.jpg)
