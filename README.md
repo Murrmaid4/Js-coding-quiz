@@ -10,6 +10,7 @@ Users get two minutes to answer my tough Javascript questions
 
 # Gameplay
 When selecting start, the initial screen disappears and the first question along with the choices appear on screen. 
+![Screenshot 2021-04-01 204519](https://user-images.githubusercontent.com/78389456/113367885-3e1e9300-932b-11eb-805c-0a55c746650d.jpg)
 
 When the user selects the correct answer they are then moved to the next question, if they select wrong, ten seconds is deducted from the timer  
 
