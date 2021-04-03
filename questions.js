@@ -18,26 +18,22 @@ var questions = [
    },
 
    {
-    title: "Question 4?",
-    choices: ["choice 1", "choice 2", "choice 3", "choice 4"],
-    answer: "choice 1" 
+    title: "What does the arithmetic operator % mean? ",
+    choices: ["Modulus", "Addition", "Subtraction", "Division"],
+    answer: "Modulus" 
    },
 
    {
-    title: "Question 5?",
-    choices: ["choice 1", "choice 2", "choice 3", "choice 4"],
-    answer: "choice 1" 
+    title: "What does the comparison operator === mean?",
+    choices: ["not equal value or type", "equal value AND equal type", "not equal", "equal value ONLY"],
+    answer: "equal value AND equal type" 
    },
 
    {
-    title: "Question 6?",
-    choices: ["choice 1", "choice 2", "choice 3", "choice 4"],
-    answer: "choice 1" 
+    title: "What number does an array index start at?",
+    choices: ["-1", "1", "0", "2"],
+    answer: "0" 
    },
-   {
-    title: "",
-    choices: "",
-    answer: "" 
-}
+   
 
 ]

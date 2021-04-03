@@ -1,9 +1,6 @@
 var nextQuestionIndex = 0;
-var time = 5
-//questions.length * 15;;
+var time = questions.length * 15;
 // first variable is used in our question selection function and second variable will be used in our time interval to set time for each question
-
-//this is how long my timer will start at
 
 var startBtn = document.querySelector("#begin");
 var questionsEl = document.querySelector("#questionScreen");
@@ -31,6 +28,12 @@ startBtn.onclick = beginQuiz;
 //  this event runs the function I created when the start button is clicked
 
 function getNextQuestion() {
+
+  if (nextQuestionIndex >= questions.length) {
+    //if this number that is nextQuestionIndex is greater than or equal to the length of my questions array...
+    endGame();
+    //..run the endGame function 
+ }
   var nextQuestion = questions[nextQuestionIndex];
   //grabs the first question from that var made above in the questions array
   var fullQuestion = document.querySelector("#fullQuestion");
@@ -46,13 +49,6 @@ function getNextQuestion() {
 
   optionsEl.textContent = choices.choices
   //this pushes the choices from my choices array to the options div 
-
- if (!nextQuestion) {
-    return endGame();
-    
-
- }
-//  if the question array stops, then run the end game function i created
  
   for (var i = 0; i < nextQuestion.choices.length; i++) 
   // starting at the first index, so long as i is less than the length of the choices section in our array it will increment
